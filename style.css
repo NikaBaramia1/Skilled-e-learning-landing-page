@@ -400,7 +400,9 @@ footer > button {
 @media  screen and (min-width: 360px) {
 
     
-   
+   .ds {
+    display: none;
+   }
 
     div > .mobile {
         display: flex;
@@ -427,6 +429,10 @@ footer > button {
         margin-right: 2.5em;
     }
     
+    .ds {
+        display: none;
+    }
+
     .title-1 {
         height: 101px;
         margin: 0 1.4em;
@@ -497,9 +503,9 @@ footer > button {
 
     header > button {
         width: 167px;
-        height:56px
+        height:56px;
         margin-top: 0.94em;
-        margin-right: 4.23em;
+        margin-right: 165px;
     }
 
     .btn-1, .btn-2, .btn-8 {
@@ -510,20 +516,22 @@ footer > button {
 
     .title-1 {
         width: 456px;
-        margin: 0 2.9em;
-        margin-top: 3.96em;
+        height: 143px;
+        margin: 0 165px;
+        margin-top: 155px;
+        font-weight: 800;
     }
 
     .paragraph-1 {
         width: 445px;
         height: 84px;
-        margin: 0 4.8em;
-        margin-top: 29px;
+        margin: 0 125px;
+        margin-top: -30px;
     }
 
     .btn-2 {
         width: 167px; 
-        margin: 0 6.1em;
+        margin: 0 156px;
         margin-top: 40px;
     }
 
@@ -542,16 +550,18 @@ footer > button {
     footer > img {
         width: 114px;
         height: 45px;
-        margin: 0 4.23em;
+        margin: 0 165px;
         margin-top: 2.4em;
     }
 
     footer > button {
         width: 167px;
-        height:56px
+        height:56px;
         margin-top: 0.94em;
-        margin-right: 4.23em;
+        margin-right: 165px;
     }
+
+  
 
 }
 
